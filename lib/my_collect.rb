@@ -8,7 +8,6 @@ def my_collect(array)
     if n < array.length
         collection << yield array(n)
     else
-      collection    
-    
+      collection
   end
 end
