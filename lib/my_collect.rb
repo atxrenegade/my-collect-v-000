@@ -2,14 +2,15 @@ languages =['ruby', 'javascript', 'python', 'objective-c']
 students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 
 def my_collect(array)
-  while !(array.empty?)
+  if !(array.empty?)
     n = 0
     collection = []
     if n < array.length
         collection << yield(array[n])
-        n += 1
+      
     else
       collection
     end
+    n += 1S
   end
 end
