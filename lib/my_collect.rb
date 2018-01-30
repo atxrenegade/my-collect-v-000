@@ -5,9 +5,9 @@ def my_collect(array)
   if !(array.empty?)
     n = 0
     collection = []
-    if n < array.length
+    while n < array.length
         collection << yield(array[n])
-      
+
     else
       collection
     end
