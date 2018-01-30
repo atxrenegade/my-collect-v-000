@@ -11,6 +11,6 @@ def my_collect(array)
     else
       collection
     end
-    n += 1S
+    n += 1
   end
 end
