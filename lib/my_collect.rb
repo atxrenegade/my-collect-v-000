@@ -9,5 +9,6 @@ def my_collect(array)
         collection << yield array(n)
     else
       collection
+    end
   end
 end
