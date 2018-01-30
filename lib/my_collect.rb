@@ -8,8 +8,7 @@ def my_collect(array)
     while n < array.length
         collection << yield(array[n])
         n += 1
-    else
-      collection
     end
+      collection
   end
 end
